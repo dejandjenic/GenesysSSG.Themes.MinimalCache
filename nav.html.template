@@ -1,0 +1,10 @@
+
+<nav id="fh5co-main-nav" role="navigation">
+					<ul>
+               {% for item in items %}
+						 <li ">
+                                 <a href="/{{ item.link }}">{{ item.text }}</a>
+                              </li>
+                              {% endfor %}
+					</ul>
+				</nav>
